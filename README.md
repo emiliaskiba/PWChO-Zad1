@@ -31,6 +31,8 @@ Można zbudować obraz wykorzystując bezpośredni link do Dockerfile umieszczon
 
 Jak przenieść stworzony obraz na swoje konto na DockerHub:
 
-```docker tag (obraz):(tag) (repozytorium):(tag)```
+```docker tag local-image:tagname new-repo:tagname```
 
-```docker push (repozytorium):(tag)```
+```docker push new-repo:tagname```
+
+
